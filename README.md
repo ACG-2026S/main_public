@@ -81,9 +81,9 @@ Topics:
 - [9] [Rasterization in 3D (Depth buffer method)](http://nobuyuki-umetani.com/acg2026s/9_rasterization_3d.pdf)
 - [10] [Graphics pipeline (Shader programming)](http://nobuyuki-umetani.com/acg2026s/10_graphics_pipeline.pdf)
 - [11] [Shading (Grouraud shading, Phong shading)](http://nobuyuki-umetani.com/acg2026s/11_shading.pdf)
-- [12] Ray casting
-- [13] Jagged array
-- [14] Spatial data structure (BVH, Kd-tree, Octree)
+- [12] [Ray casting](http://nobuyuki-umetani.com/acg2026s/12_ray_casting.pdf)
+- [13] [Jagged array](http://nobuyuki-umetani.com/acg2026s/13_jagged_array.pdf)
+- [14] [Spatial data structure (BVH, Kd-tree, Octree)](http://nobuyuki-umetani.com/acg2026s/14_spatial_data_structure.pdf)
 - [15] Implicit modeling
 - [16] Volume visualization (ray marching, volume rendering)
 - [17] Antialiasing & transparency (Monte-Carlo integration, Gaussian splatting)
@@ -95,7 +95,7 @@ Topics:
 - [23] Mesh Laplacian
 - [24] Differential Rendering (Reynolds transport theorem, Edge sampling, nvDiffRast)
 - [25] [Rust language](http://nobuyuki-umetani.com/acg2026s/25_rust.pdf)
-- [26] Unity
+- [26] [Unity](http://nobuyuki-umetani.com/acg2026s/26_unity.pdf)
 
 ## Grading
 
@@ -120,7 +120,7 @@ Look at the following document.
 | [task01](task01) | **Rasterization of lines and polygons**<br>Winding number                                               | ![thumbnail](task01/preview.png)                                      | Apr. 27  | May 1   |
 | [task02](task02) | **Rasterization of parametric curves**<br> Parametric curve, Polynomial root finding                    | ![thumbnail](task02/preview.png)                                      | May 7    | May 11  |
 | [task03](task03) | **Perspectively-correct texture mapping**<br>rasterization of triangle,Barycentric coordinates          | ![thumbnail](task03/preview1.png)   ![thumbnail](task03/preview2.png) | May 11   | May 15  |
-| task04           | **Shader practice1**<br>Unity, Rendering pipeline                                                       |                                                                       | May 22   | May 26  |
+| [task04](task04) | **Shader practice1**<br>Unity, Rendering pipeline                                                       | ![thumbnail](task04/thumbnail.gif) | May 22   | May 26  |
 | task05           | **Acceleration of geometry computing**<br> Bounding-volume hierarchy                                    |                                                                       | May 25   | May 29  |
 | task06           | **Shader practice2**<br>Unity, Ray marching method, CSG modeling, implicit modeling                     |                                                                       | Jun. 8   | Jun. 12 |
 | task07           | **Gaussian splatting**<br>Rasterization of Gaussian primitives, Tile-based acceleration, Alpha-blending |                                                                       | Jun. 15  | Jun. 19 |

@@ -100,7 +100,7 @@ git commit -m "task03 finished"   # the comment can be anything
 git push --set-upstream origin task03  # up date the task03 branch of the remote repository
 ```
 
-got to the GitHub webpage `https://github.com/ACG-2024S/acg-<username>`. If everything looks good on this page, make a pull request. 
+got to the GitHub webpage `https://github.com/ACG-2026S/acg-<username>`. If everything looks good on this page, make a pull request. 
 
 ![](../doc/pullrequest.png)
 
