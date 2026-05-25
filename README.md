@@ -84,7 +84,7 @@ Topics:
 - [12] [Ray casting](http://nobuyuki-umetani.com/acg2026s/12_ray_casting.pdf)
 - [13] [Jagged array](http://nobuyuki-umetani.com/acg2026s/13_jagged_array.pdf)
 - [14] [Spatial data structure (BVH, Kd-tree, Octree)](http://nobuyuki-umetani.com/acg2026s/14_spatial_data_structure.pdf)
-- [15] Implicit modeling
+- [15] [Implicit modeling](http://nobuyuki-umetani.com/acg2026s/15_implicit_modeling.pdf)
 - [16] Volume visualization (ray marching, volume rendering)
 - [17] Antialiasing & transparency (Monte-Carlo integration, Gaussian splatting)
 - [18] Material modeling (Rendering equation)
@@ -120,8 +120,8 @@ Look at the following document.
 | [task01](task01) | **Rasterization of lines and polygons**<br>Winding number                                               | ![thumbnail](task01/preview.png)                                      | Apr. 27  | May 1   |
 | [task02](task02) | **Rasterization of parametric curves**<br> Parametric curve, Polynomial root finding                    | ![thumbnail](task02/preview.png)                                      | May 7    | May 11  |
 | [task03](task03) | **Perspectively-correct texture mapping**<br>rasterization of triangle,Barycentric coordinates          | ![thumbnail](task03/preview1.png)   ![thumbnail](task03/preview2.png) | May 11   | May 15  |
-| [task04](task04) | **Shader practice1**<br>Unity, Rendering pipeline                                                       | ![thumbnail](task04/thumbnail.gif) | May 22   | May 26  |
-| task05           | **Acceleration of geometry computing**<br> Bounding-volume hierarchy                                    |                                                                       | May 25   | May 29  |
+| [task04](task04) | **Shader practice1**<br>Unity, Rendering pipeline                                                       | ![thumbnail](task04/thumbnail.gif)                                    | May 22   | May 26  |
+| [task05](task05) | **Acceleration Structure**<br> Bounding-volume hierarchy, tile-based rendering                          | ![thumbnail](task05/preview1.png)   ![thumbnail](task05/preview2.png) | May 25   | May 29  |
 | task06           | **Shader practice2**<br>Unity, Ray marching method, CSG modeling, implicit modeling                     |                                                                       | Jun. 8   | Jun. 12 |
 | task07           | **Gaussian splatting**<br>Rasterization of Gaussian primitives, Tile-based acceleration, Alpha-blending |                                                                       | Jun. 15  | Jun. 19 |
 | task08           | **Monte Carlo integration**<br/>Importance sampling                                                     |                                                                       | Jun. 29  | Jul. 3  |
