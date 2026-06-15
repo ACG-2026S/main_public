@@ -1,0 +1,10 @@
+[package]
+name = "gs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nalgebra = "0.33"
+rand = "0.8"
+image = "0.25"
+anyhow = "1.0.97"

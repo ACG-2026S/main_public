@@ -49,21 +49,21 @@ Topics:
 
 ## Lecture Schedule
 
-| Day             | Topic                                                                                           | 
-|:----------------|:------------------------------------------------------------------------------------------------|
-| (1)<br>Apr. 20  | **Introduction**<br>[1] Introduction, [2] Digital image, [3] Rasterization in 2D                |  
-| (2)<br>Apr. 27  | **Parametric curve/surface** <br/>[4] Polynomial root finding, [5] Parametric Curve, [6] Git    |  
-| (3)<br>May. 7   | **Coordinate transformation**<br> [7] 2D transformation, [8] 3D transformation                  |  
-| (4)<br>May 11   | **Rasterization1**<br>[9] Rasterization in 3D, [10] Graphics pipeline,              | 
-| (5)<br>May 18   | **Guest Lecture by Sei Imai (I.Meisters)**<br> Game development                                 | 
-| (6)<br>May 22   | **Ray Casting0**<br> [11] Shading[12] Ray casting,   | 
-| (7)<br>May 25   | **Spatial Data Structure**<br> [13] Jagged array, [14] Spatial data structure         | 
-| (8)<br>Jun. 8   | **Volume representation**<br> [15] Implicit modeling, [16] Volume visualization                 | 
-| (9)<br>Jun. 15  | **Ray Casting1**<br> [17] Anti-aliasing, [18] Material modeling,                                      | 
-| (10)<br>Jun. 22 | **Ray Casting2**<br> [19] Jacobian, [20] Path tracing                                                          |
-| (11)<br>June 29 | **Optimization**<br> [21] Optimization                                                          | 
-| (12)<br>July 6  | **Laplacian mesh deformation**<br> [22] Sparse linear system, [23] Mesh laplacian               | 
-| (13)<br>July 13 | **Differentiable Rendering**<br> [24] Differential rendering                                    | 
+| Day             | Topic                                                                                        | 
+|:----------------|:---------------------------------------------------------------------------------------------|
+| (1)<br>Apr. 20  | **Introduction**<br>[1] Introduction, [2] Digital image, [3] Rasterization in 2D             |  
+| (2)<br>Apr. 27  | **Parametric curve/surface** <br/>[4] Polynomial root finding, [5] Parametric Curve, [6] Git |  
+| (3)<br>May. 7   | **Coordinate transformation**<br> [7] 2D transformation, [8] 3D transformation               |  
+| (4)<br>May 11   | **Rasterization1**<br>[9] Rasterization in 3D, [10] Graphics pipeline,                       | 
+| (5)<br>May 18   | **Guest Lecture by Sei Imai (I.Meisters)**<br> Game development                              | 
+| (6)<br>May 22   | **Ray Casting0**<br> [11] Shading[12] Ray casting,                                           | 
+| (7)<br>May 25   | **Spatial Data Structure**<br> [13] Jagged array, [14] Spatial data structure                | 
+| (8)<br>Jun. 8   | **Volume representation**<br> [15] Implicit modeling, [16] Volume visualization              | 
+| (9)<br>Jun. 15  | **Ray Casting1**<br> [17] Anti-aliasing, [18] Material modeling,                             | 
+| (10)<br>Jun. 22 | **Ray Casting2**<br> [19] Jacobian, [20] Path tracing                                        |
+| (11)<br>June 29 | **Optimization**<br> [21] Optimization                                                       | 
+| (12)<br>July 6  | **Laplacian mesh deformation**<br> [22] Sparse linear system, [23] Mesh laplacian            | 
+| (13)<br>July 13 | **Differentiable Rendering**<br> [24] Differential rendering                                 | 
 
 
 ## Slides
@@ -86,9 +86,9 @@ Topics:
 - [14] [Spatial data structure (BVH, Kd-tree, Octree)](http://nobuyuki-umetani.com/acg2026s/14_spatial_data_structure.pdf)
 - [15] [Implicit modeling](http://nobuyuki-umetani.com/acg2026s/15_implicit_modeling.pdf)
 - [16] [Volume visualization (ray marching, volume rendering, NeRF, Gaussian Splatting)](http://nobuyuki-umetani.com/acg2026s/16_transparency_and_volume_visualization.pdf)
-- [17] Antialiasing (Monte-Carlo integration)
-- [18] Material modeling (Rendering equation)
-- [19] Jacobian (Environmental mapping)
+- [17] [Antialiasing (Monte-Carlo integration)](http://nobuyuki-umetani.com/acg2026s/17_antialias.pdf)
+- [18] [Material modeling (Radiometry, Rendering equation)](http://nobuyuki-umetani.com/acg2026s/18_material_modeling.pdf)
+- [19] Jacobian (Environmental mapping, Sampling PDF)
 - [20] Path tracing (Importance sampling)
 - [21] Optimization (Gradient descent, Back propagation, Newton's method)
 - [22] Sparse linear system
@@ -115,17 +115,17 @@ Look at the following document.
 
 **Below is a tentative schedule. Each assignment will be open and in a class one-by-one**
 
-| Task ID          | Title                                                                                                   | Thumbnail                                                             | Assigned | Due     |
-|:-----------------|:--------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------|:---------|:--------|
-| [task01](task01) | **Rasterization of lines and polygons**<br>Winding number                                               | ![thumbnail](task01/preview.png)                                      | Apr. 27  | May 1   |
-| [task02](task02) | **Rasterization of parametric curves**<br> Parametric curve, Polynomial root finding                    | ![thumbnail](task02/preview.png)                                      | May 7    | May 11  |
-| [task03](task03) | **Perspectively-correct texture mapping**<br>rasterization of triangle,Barycentric coordinates          | ![thumbnail](task03/preview1.png)   ![thumbnail](task03/preview2.png) | May 11   | May 15  |
-| [task04](task04) | **Shader practice1**<br>Unity, Rendering pipeline                                                       | ![thumbnail](task04/thumbnail.gif)                                    | May 22   | May 26  |
-| [task05](task05) | **Acceleration Structure**<br> Bounding-volume hierarchy, tile-based rendering                          | ![thumbnail](task05/preview1.png)   ![thumbnail](task05/preview2.png) | May 25   | May 29  |
-| [task06](task06) | **Shader practice2**<br>Unity, Ray marching method, CSG modeling, implicit modeling     | ![thumbnail](task06/preview.gif)                                                                       | Jun. 8   | Jun. 12 |
-| task07           | **Gaussian splatting**<br>Rasterization of Gaussian primitives, Tile-based acceleration, Alpha-blending |                                                                       | Jun. 15  | Jun. 19 |
-| task08           | **Monte Carlo integration**<br/>Importance sampling                                                     |                                                                       | Jun. 29  | Jul. 3  |
-| task09           | **Laplacian Mesh Deformation**<br> Quadratic programming, Sparse linear system                          |                                                                       | Jul. 6   | Jul. 10 |
+| Task ID          | Title                                                                                          | Thumbnail                                                             | Assigned | Due     |
+|:-----------------|:-----------------------------------------------------------------------------------------------|:----------------------------------------------------------------------|:---------|:--------|
+| [task01](task01) | **Rasterization of lines and polygons**<br>Winding number                                      | ![thumbnail](task01/preview.png)                                      | Apr. 27  | May 1   |
+| [task02](task02) | **Rasterization of parametric curves**<br> Parametric curve, Polynomial root finding           | ![thumbnail](task02/preview.png)                                      | May 7    | May 11  |
+| [task03](task03) | **Perspectively-correct texture mapping**<br>rasterization of triangle,Barycentric coordinates | ![thumbnail](task03/preview1.png)   ![thumbnail](task03/preview2.png) | May 11   | May 15  |
+| [task04](task04) | **Shader practice1**<br>Unity, Rendering pipeline                                              | ![thumbnail](task04/thumbnail.gif)                                    | May 22   | May 26  |
+| [task05](task05) | **Acceleration structure**<br> Bounding-volume hierarchy, tile-based rendering                 | ![thumbnail](task05/preview1.png)   ![thumbnail](task05/preview2.png) | May 25   | May 29  |
+| [task06](task06) | **Shader practice2**<br>Unity, Ray marching method, CSG modeling, implicit modeling            | ![thumbnail](task06/preview.gif)                                      | Jun. 8   | Jun. 12 |
+| [task07](task07) | **Gaussian splatting**<br>Tranaparency, Alpha-blending                                         | ![thumbnail](task07/preview.png)                                      | Jun. 15  | Jun. 19 |
+| task08           | **Monte Carlo integration**<br/>Importance sampling                                            |                                                                       | Jun. 29  | Jul. 3  |
+| task09           | **Laplacian Mesh Deformation**<br> Quadratic programming, Sparse linear system                 |                                                                       | Jul. 6   | Jul. 10 |
 
 ### Policy
 
