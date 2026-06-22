@@ -88,8 +88,8 @@ Topics:
 - [16] [Volume visualization (ray marching, volume rendering, NeRF, Gaussian Splatting)](http://nobuyuki-umetani.com/acg2026s/16_transparency_and_volume_visualization.pdf)
 - [17] [Antialiasing (Monte-Carlo integration)](http://nobuyuki-umetani.com/acg2026s/17_antialias.pdf)
 - [18] [Material modeling (Radiometry, Rendering equation)](http://nobuyuki-umetani.com/acg2026s/18_material_modeling.pdf)
-- [19] Jacobian (Environmental mapping, Sampling PDF)
-- [20] Path tracing (Importance sampling)
+- [19] [Sampling distribution (Sampling, Probability distribution function)](http://nobuyuki-umetani.com/acg2026s/19_sampling_distribution.pdf)
+- [20] [Path tracing (Importance sampling)](http://nobuyuki-umetani.com/acg2026s/20_path_tracing.pdf)
 - [21] Optimization (Gradient descent, Back propagation, Newton's method)
 - [22] Sparse linear system
 - [23] Mesh Laplacian
