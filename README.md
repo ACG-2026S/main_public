@@ -124,7 +124,7 @@ Look at the following document.
 | [task05](task05) | **Acceleration structure**<br> Bounding-volume hierarchy, tile-based rendering                 | ![thumbnail](task05/preview1.png)   ![thumbnail](task05/preview2.png) | May 25   | May 29  |
 | [task06](task06) | **Shader practice2**<br>Unity, Ray marching method, CSG modeling, implicit modeling            | ![thumbnail](task06/preview.gif)                                      | Jun. 8   | Jun. 12 |
 | [task07](task07) | **Gaussian splatting**<br>Tranaparency, Alpha-blending                                         | ![thumbnail](task07/preview.png)                                      | Jun. 15  | Jun. 19 |
-| task08           | **Monte Carlo integration**<br/>Importance sampling                                            |                                                                       | Jun. 29  | Jul. 3  |
+| [task08](task08) | **Path tracing**<br/>Monte Carlo integration, Importance sampling                              | ![thumbnail](task08/preview.png)                                      | Jun. 29  | Jul. 3  |
 | task09           | **Laplacian Mesh Deformation**<br> Quadratic programming, Sparse linear system                 |                                                                       | Jul. 6   | Jul. 10 |
 
 ### Policy
