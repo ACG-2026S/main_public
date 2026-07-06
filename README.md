@@ -90,9 +90,9 @@ Topics:
 - [18] [Material modeling (Radiometry, Rendering equation)](http://nobuyuki-umetani.com/acg2026s/18_material_modeling.pdf)
 - [19] [Sampling distribution (Sampling, Probability distribution function)](http://nobuyuki-umetani.com/acg2026s/19_sampling_distribution.pdf)
 - [20] [Path tracing (Importance sampling)](http://nobuyuki-umetani.com/acg2026s/20_path_tracing.pdf)
-- [21] Optimization (Gradient descent, Back propagation, Newton's method)
-- [22] Sparse linear system
-- [23] Mesh Laplacian
+- [21] [Optimization (Gradient descent, Back propagation, Newton's method)](http://nobuyuki-umetani.com/acg2026s/21_optimization.pdf)
+- [22] [Sparse linear system](http://nobuyuki-umetani.com/acg2026s/22_sparse_linear_system.pdf)
+- [23] [Mesh Laplacian](http://nobuyuki-umetani.com/acg2026s/23_mesh_laplacian.pdf)
 - [24] Differential Rendering (Reynolds transport theorem, Edge sampling, nvDiffRast)
 - [25] [Rust language](http://nobuyuki-umetani.com/acg2026s/25_rust.pdf)
 - [26] [Unity](http://nobuyuki-umetani.com/acg2026s/26_unity.pdf)
@@ -125,7 +125,7 @@ Look at the following document.
 | [task06](task06) | **Shader practice2**<br>Unity, Ray marching method, CSG modeling, implicit modeling            | ![thumbnail](task06/preview.gif)                                      | Jun. 8   | Jun. 12 |
 | [task07](task07) | **Gaussian splatting**<br>Tranaparency, Alpha-blending                                         | ![thumbnail](task07/preview.png)                                      | Jun. 15  | Jun. 19 |
 | [task08](task08) | **Path tracing**<br/>Monte Carlo integration, Importance sampling                              | ![thumbnail](task08/preview.png)                                      | Jun. 29  | Jul. 3  |
-| task09           | **Laplacian Mesh Deformation**<br> Quadratic programming, Sparse linear system                 |                                                                       | Jul. 6   | Jul. 10 |
+| task09           | **Laplacian Mesh Deformation**<br> Quadratic programming, Sparse linear system                 |                                                                       | Jul. 13  | Jul. 17 |
 
 ### Policy
 
