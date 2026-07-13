@@ -93,7 +93,7 @@ Topics:
 - [21] [Optimization (Gradient descent, Back propagation, Newton's method)](http://nobuyuki-umetani.com/acg2026s/21_optimization.pdf)
 - [22] [Sparse linear system](http://nobuyuki-umetani.com/acg2026s/22_sparse_linear_system.pdf)
 - [23] [Mesh Laplacian](http://nobuyuki-umetani.com/acg2026s/23_mesh_laplacian.pdf)
-- [24] Differential Rendering (Reynolds transport theorem, Edge sampling, nvDiffRast)
+- [24] [Differential Rendering (Reynolds transport theorem, Edge sampling, nvDiffRast)](http://nobuyuki-umetani.com/acg2026s/24_differential_rendering.pdf)
 - [25] [Rust language](http://nobuyuki-umetani.com/acg2026s/25_rust.pdf)
 - [26] [Unity](http://nobuyuki-umetani.com/acg2026s/26_unity.pdf)
 
@@ -123,9 +123,9 @@ Look at the following document.
 | [task04](task04) | **Shader practice1**<br>Unity, Rendering pipeline                                              | ![thumbnail](task04/thumbnail.gif)                                    | May 22   | May 26  |
 | [task05](task05) | **Acceleration structure**<br> Bounding-volume hierarchy, tile-based rendering                 | ![thumbnail](task05/preview1.png)   ![thumbnail](task05/preview2.png) | May 25   | May 29  |
 | [task06](task06) | **Shader practice2**<br>Unity, Ray marching method, CSG modeling, implicit modeling            | ![thumbnail](task06/preview.gif)                                      | Jun. 8   | Jun. 12 |
-| [task07](task07) | **Gaussian splatting**<br>Tranaparency, Alpha-blending                                         | ![thumbnail](task07/preview.png)                                      | Jun. 15  | Jun. 19 |
+| [task07](task07) | **Gaussian splatting**<br>Transparency, Alpha-blending                                         | ![thumbnail](task07/preview.png)                                      | Jun. 15  | Jun. 19 |
 | [task08](task08) | **Path tracing**<br/>Monte Carlo integration, Importance sampling                              | ![thumbnail](task08/preview.png)                                      | Jun. 29  | Jul. 3  |
-| task09           | **Laplacian Mesh Deformation**<br> Quadratic programming, Sparse linear system                 |                                                                       | Jul. 13  | Jul. 17 |
+| [task09](task09) | **Laplacian Mesh Deformation**<br> Quadratic programming, Sparse linear system                 | ![thumbnail](task09/preview.png)                                      | Jul. 13  | Jul. 17 |
 
 ### Policy
 
